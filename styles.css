@@ -37,7 +37,7 @@ h2{
 }
 
 
-.conversion{
+.water-conversion-container{
     display: flex;
     padding-bottom: 10px;
 }
@@ -100,6 +100,36 @@ button{
     font-weight: bolder;
     background-color: #BF2DEB;
     color: #F4DAFC;
+
+}
+
+
+
+.rice-conversion-container{
+    display: flex;
+}
+
+.conversion-rice{
+    display: block;
+    margin-left: 230px;
+    font-size: 34px;
+    font-family: 'Anton', sans-serif;
+    padding-bottom: 5px;
+    color: #F4DAFC;
+}
+
+.rice-number{
+    display: block;
+    margin-right: 25px;
+}
+
+.rice-unit{
+    display: block;
+    font-size: 34px;
+    font-family: 'Anton', sans-serif;
+    color: #F4DAFC;
+
+    /* padding-bottom: 10px; */
 
 }
 
