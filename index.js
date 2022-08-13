@@ -17,8 +17,8 @@ function clearQuantities(){
 
 waterConvert.addEventListener("click", function (){
 
-    water += waterAmount.value
-    rice += water / 2
+    let waterConversion = water + waterAmount.value
+    rice += waterConversion / 2
     console.log(`rice needed: ${rice} cup(s)`)
     clearQuantities()
 //    input a function that sets quantities to zero
@@ -28,9 +28,9 @@ const riceAmount = document.getElementById("rice-amount")
 const riceConvert = document.getElementById("rice-convert")
 
 riceConvert.addEventListener("click", function(){
-    rice += riceAmount.value
-    water = rice * 2
-    console.log(`rice needed: ${water} cup(s)`)
+    let riceConversion = rice + riceAmount.value
+    water = riceConversion * 2
+    console.log(`water needed: ${water} cup(s)`)
     clearQuantities()
 
 })
