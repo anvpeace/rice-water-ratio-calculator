@@ -50,7 +50,6 @@ riceConvert.addEventListener("click", function(){
         riceCalc= false
         clearQuantities()
     }
-        //   clearQuantities()
 })
 
 
@@ -63,13 +62,7 @@ function clearQuantities(){
 
 }
 
-// if(waterCalc === true){
-//      calculation.innerHTML = (`<h1> ${rice} cup(s) of rice are needed for your ${water} cup(s) of water!</h1>`)
-//     // clearQuantities()
-// }else if(riceCalc === true){
-//     calculation.innerHTML = (`<h1> ${water} cup(s) of rice are needed for your ${rice} cup(s) of water!</h1>`)
-//     // clearQuantities()
-// }
+
 
 
 
