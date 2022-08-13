@@ -23,7 +23,7 @@ waterConvert.addEventListener("click", function (){
     rice = water / 2   
     waterCalc= true
     if(waterCalc === true){
-        calculation.innerHTML+= (`<h1> ${rice} cup(s) of rice are needed for your ${water} cup(s) of water!</h1>`)
+        calculation.innerHTML= (`<h1 style= "color: #F4DAFC;"> ${rice} cup(s) of rice are needed for your ${water} cup(s) of water!</h1>`)
    }else{
         waterCalc= false
         clearQuantities()
@@ -44,7 +44,7 @@ riceConvert.addEventListener("click", function(){
     console.log(`water needed: ${water} cup(s)`)
    
     if(riceCalc === true){
-        calculation.innerHTML+= (`<h1> ${water} cup(s) of water are needed for your ${rice} cup(s) of water!</h1>`)
+        calculation.innerHTML= (`<h1 style= "color: #F4DAFC;"> ${water} cup(s) of water are needed for your ${rice} cup(s) of rice!</h1>`)
      
    }else{
         riceCalc= false
