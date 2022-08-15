@@ -108,7 +108,7 @@ button{
 
 
 
-.rice-conversion-container{
+/* .rice-conversion-container{
     display: flex;
 }
 
@@ -132,9 +132,8 @@ button{
     font-family: 'Anton', sans-serif;
     color: #F4DAFC;
 
-    /* padding-bottom: 10px; */
 
-}
+} */
 
 label{
 padding: 30px;
