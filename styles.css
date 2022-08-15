@@ -40,11 +40,14 @@ h2{
 .water-conversion-container{
     display: flex;
     padding-bottom: 10px;
+    margin-left: 85px;
 }
 
 .conversion-water{
-    display: block;
-    margin-left: 200px;
+    display: flex;
+    justify-content: space-between;
+    /* margin-left: 120px; */
+    margin-right: 30px;
     font-size: 34px;
     font-family: 'Anton', sans-serif;
     padding-bottom: 5px;
@@ -70,7 +73,7 @@ input{
     padding: 20px;
     /* margin-bottom: 30px; */
     margin-top: 25px;
-    margin-left: 50px;
+    margin-left: 20px;
     border-radius: 8px;
 }
 
@@ -133,3 +136,22 @@ button{
 
 }
 
+label{
+padding: 30px;
+}
+
+.label-container{
+    display: inline;
+    margin-top: 23px;
+}
+
+.label-content{
+display: inline;
+margin-top: 21px;
+
+}
+
+select{
+    font-size: large;
+    font-weight: bold;
+}

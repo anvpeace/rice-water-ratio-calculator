@@ -20,7 +20,18 @@
 
         <div class="water-conversion-container">
             <div class="conversion-water">
-                <p>WATER : </p>
+                <!-- <p>WATER : </p> -->
+                <div class="label-container">
+                    <label for="ingredients" style="font-size:18px ;">Choose ingredient:</label>
+                </div>
+                
+                <div class="label-content">
+                    <select id="ingredient" style="width: 90px; height: 40px;">
+                        <option value="rice">Rice</option>
+                        <option value="water">Water</option>
+                    </select>
+                </div>
+
             </div>
             <div class="water-number">
                 <input id="water-amount" type="number" value="">
@@ -37,7 +48,7 @@
             </div> -->
         </div>
 
-        <div class="rice-conversion-container">
+        <!-- <div class="rice-conversion-container">
             <div class="conversion-rice">
                 <p>RICE : </p>
             </div>
@@ -48,10 +59,9 @@
                 <p>CUPS</p>
             </div>
 
-            <!-- <div class="water-btn"> -->
                 <button id="rice-convert" type="button">CONVERT</button>
 
-        </div>
+        </div> -->
 
         <script type="text/javascript" src="index.js"></script>
     </body>
