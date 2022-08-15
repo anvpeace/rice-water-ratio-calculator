@@ -4,10 +4,7 @@
 
 let water = 0;
 let rice = 0;
-// let waterCalc= false
-// let riceCalc = false
-let isRice= true;
-let isWater = true;
+
 
 // A FUNCTION IS NEEDED THAT TAKES IN THE VALUE OF THE INGREDIENT SELECTED AND THE VALUE OF AMOUNT OF SELECTED INGREDIENT AND MULTIPLIES BUT PROPER RATIO
 
@@ -48,7 +45,12 @@ conversionBtn.addEventListener("click", function(){
     clearQuantities()
 })
 
+function clearQuantities(){
+    water = 0
+    rice = 0 
+  
 
+}
 
 
 
@@ -105,13 +107,7 @@ conversionBtn.addEventListener("click", function(){
 
 
 
-function clearQuantities(){
-    water = 0
-    rice = 0 
-    waterCalc = false
-    riceCalc = false
 
-}
 
 
 
